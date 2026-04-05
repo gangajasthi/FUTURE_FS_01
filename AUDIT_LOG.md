@@ -15,3 +15,4 @@ This file records actions and changes performed in this workspace (commands run,
 - Pulled remote history with rebase: `git pull --rebase origin main`.
 - Resolved README conflict and continued: `git add README.md` + `git rebase --continue`.
 - Successfully pushed to GitHub: `git push -u origin main`.
+- Updated `README.md` to include the live demo link: https://gangastack.netlify.app/

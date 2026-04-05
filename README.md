@@ -2,6 +2,10 @@
 
 A responsive single-page portfolio website built with plain **HTML**, **CSS**, and **JavaScript**.
 
+## Live Demo
+
+- https://gangastack.netlify.app/
+
 ## Preview / Run
 
 - Option 1 (simplest): open `index.html` in your browser.
