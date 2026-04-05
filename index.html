@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jasthi Ganga Bhavani — B.Tech AIML Student | Developer · Problem Solver · Data Enthusiast</title>
+  <meta name="description" content="Jasthi Ganga Bhavani is a B.Tech AIML student with a strong foundation in programming, databases, and data handling. Skilled in C, C++, Python, MySQL, Power BI.">
+  <meta name="author" content="Jasthi Ganga Bhavani">
+  <meta name="keywords" content="B.Tech AIML, developer, Python, C++, MySQL, Power BI, machine learning, portfolio">
+
+  <!-- Google Fonts: Syne + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══ CUSTOM CURSOR ═══ -->
+  <div class="custom-cursor" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════════════════
+       1. NAVIGATION
+       ═══════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">it's me</a>
+
+      <div class="nav__links">
+        <a href="#projects" class="nav__link">
+          <span class="nav__link-label">My Projects <span class="arrow">↗</span></span>
+          <span class="nav__link-desc">See all the projects I have built.</span>
+        </a>
+        <a href="#about" class="nav__link">
+          <span class="nav__link-label">About Me <span class="arrow">↗</span></span>
+          <span class="nav__link-desc">Learn about my skills & education.</span>
+        </a>
+        <a href="#contact" class="nav__link">
+          <span class="nav__link-label">Contact me <span class="arrow">↗</span></span>
+          <span class="nav__link-desc">bavanig486@gmail.com</span>
+        </a>
+      </div>
+
+      <!-- Hamburger (mobile) -->
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="nav__mobile-menu">
+      <a href="#projects" class="nav__link">
+        <span class="nav__link-label">My Projects <span class="arrow">↗</span></span>
+      </a>
+      <a href="#about" class="nav__link">
+        <span class="nav__link-label">About Me <span class="arrow">↗</span></span>
+      </a>
+      <a href="#contact" class="nav__link">
+        <span class="nav__link-label">Contact me <span class="arrow">↗</span></span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       2. HERO SECTION
+       ═══════════════════════════════════════ -->
+  <section class="hero" id="about">
+    <div class="container hero__inner">
+
+      <!-- LEFT COLUMN -->
+      <div class="hero__left">
+        <!-- Decorative diagonal line -->
+        <div class="hero__deco-line" aria-hidden="true">
+          <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+            <line x1="0" y1="120" x2="120" y2="0" stroke="#E8E8E8" stroke-width="1.5" stroke-dasharray="6 4"/>
+            <line x1="20" y1="120" x2="120" y2="20" stroke="#E8E8E8" stroke-width="1"/>
+          </svg>
+        </div>
+
+        <span class="hero__wave" aria-hidden="true">👋</span>
+
+        <h1 class="hero__headline">
+          <span class="hero__headline-light">
+            <span class="hero-word">Hello!</span>
+            <span class="hero-word">I'm</span>
+          </span>
+          <span class="hero__headline-bold">
+            <span class="hero-word">Bhavani</span>
+          </span>
+        </h1>
+
+        <div class="hero__rule">
+          <div class="hero__rule-line"></div>
+          <span class="hero__rule-text">B.Tech AIML Student</span>
+          <span class="hero__rule-sparkle">✦</span>
+        </div>
+
+        <p class="hero__bio">
+          Motivated and detail-oriented <strong>B.Tech AIML student</strong> with a strong foundation in
+          <strong>programming</strong> and <strong>databases</strong>. Seeking a software or data-focused
+          internship to apply problem-solving skills and gain real-world industry experience.
+        </p>
+
+        <ul class="hero__checklist">
+          <li class="hero__check-item">
+            <span class="hero__check-icon">✓</span>
+            C, C++, Python — Programming
+          </li>
+          <li class="hero__check-item">
+            <span class="hero__check-icon">✓</span>
+            MySQL, Power BI, MS Excel — Data Tools
+          </li>
+          <li class="hero__check-item">
+            <span class="hero__check-icon">✓</span>
+            Problem Solving & Logical Thinking
+          </li>
+        </ul>
+
+        <div class="hero__ctas">
+          <a href="#contact" class="pill-btn pill-btn--black">Let's Talk</a>
+          <a href="#" class="hero__cv-link">Download CV <span>↓</span></a>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN — Abstract Tech Visualization -->
+      <div class="hero__right">
+        <div class="hero__blob" aria-hidden="true"></div>
+
+        <!-- Abstract code/tech art replacing portrait -->
+        <div class="hero__abstract" aria-hidden="true">
+          <svg viewBox="0 0 400 460" xmlns="http://www.w3.org/2000/svg" class="hero__abstract-svg">
+            <!-- Grid dots -->
+            <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+              <circle cx="2" cy="2" r="1" fill="rgba(10,10,10,0.08)"/>
+            </pattern>
+            <rect width="400" height="460" fill="url(#dotGrid)"/>
+
+            <!-- Floating code blocks -->
+            <g class="hero__float-block hero__float-block--1">
+              <rect x="40" y="60" width="180" height="100" rx="12" fill="#0A0A0A"/>
+              <text x="60" y="90" font-family="'DM Sans', monospace" font-size="10" fill="#43E97B" opacity="0.9">def solve():</text>
+              <text x="60" y="108" font-family="'DM Sans', monospace" font-size="10" fill="#6BCFFF" opacity="0.8">  data = query(db)</text>
+              <text x="60" y="126" font-family="'DM Sans', monospace" font-size="10" fill="#FFD93D" opacity="0.8">  return analyze(data)</text>
+              <text x="60" y="144" font-family="'DM Sans', monospace" font-size="10" fill="#A78BFA" opacity="0.7">  # AI & ML ✦</text>
+            </g>
+
+            <!-- Skill pills floating -->
+            <g class="hero__float-block hero__float-block--2">
+              <rect x="200" y="30" width="90" height="30" rx="15" fill="#0A0A0A"/>
+              <text x="220" y="50" font-family="Syne" font-size="11" font-weight="700" fill="#fff">PYTHON</text>
+            </g>
+
+            <g class="hero__float-block hero__float-block--3">
+              <rect x="260" y="180" width="110" height="30" rx="15" fill="#0A0A0A"/>
+              <text x="275" y="200" font-family="Syne" font-size="11" font-weight="700" fill="#fff">MYSQL</text>
+            </g>
+
+            <g class="hero__float-block hero__float-block--4">
+              <rect x="60" y="200" width="100" height="30" rx="15" fill="transparent" stroke="#0A0A0A" stroke-width="1.5"/>
+              <text x="78" y="220" font-family="Syne" font-size="11" font-weight="700" fill="#0A0A0A">C / C++</text>
+            </g>
+
+            <g class="hero__float-block hero__float-block--5">
+              <rect x="180" y="240" width="110" height="30" rx="15" fill="transparent" stroke="#0A0A0A" stroke-width="1.5"/>
+              <text x="195" y="260" font-family="Syne" font-size="11" font-weight="700" fill="#0A0A0A">POWER BI</text>
+            </g>
+
+            <!-- Database icon -->
+            <g class="hero__float-block hero__float-block--6" transform="translate(280, 100)">
+              <ellipse cx="40" cy="15" rx="35" ry="12" fill="none" stroke="#0A0A0A" stroke-width="1.5"/>
+              <path d="M5 15 L5 50 C5 57 18 62 40 62 C62 62 75 57 75 50 L75 15" fill="none" stroke="#0A0A0A" stroke-width="1.5"/>
+              <ellipse cx="40" cy="32" rx="35" ry="10" fill="none" stroke="#0A0A0A" stroke-width="1" opacity="0.3"/>
+              <ellipse cx="40" cy="48" rx="35" ry="10" fill="none" stroke="#0A0A0A" stroke-width="1" opacity="0.3"/>
+            </g>
+
+            <!-- Neural network nodes -->
+            <g opacity="0.15">
+              <circle cx="100" cy="340" r="8" fill="#FF6B6B"/>
+              <circle cx="140" cy="310" r="6" fill="#6BCFFF"/>
+              <circle cx="180" cy="340" r="8" fill="#A78BFA"/>
+              <circle cx="220" cy="310" r="6" fill="#43E97B"/>
+              <circle cx="260" cy="340" r="8" fill="#FFD93D"/>
+              <line x1="100" y1="340" x2="140" y2="310" stroke="#999" stroke-width="1"/>
+              <line x1="140" y1="310" x2="180" y2="340" stroke="#999" stroke-width="1"/>
+              <line x1="180" y1="340" x2="220" y2="310" stroke="#999" stroke-width="1"/>
+              <line x1="220" y1="310" x2="260" y2="340" stroke="#999" stroke-width="1"/>
+              <line x1="100" y1="340" x2="180" y2="340" stroke="#999" stroke-width="0.5"/>
+              <line x1="180" y1="340" x2="260" y2="340" stroke="#999" stroke-width="0.5"/>
+            </g>
+
+            <!-- Achievement badge -->
+            <g class="hero__float-block hero__float-block--7" transform="translate(50, 380)">
+              <rect width="240" height="50" rx="10" fill="#F5F5F0" stroke="#E8E8E8" stroke-width="1"/>
+              <text x="16" y="22" font-family="Syne" font-size="10" font-weight="700" fill="#0A0A0A">500+ PROBLEMS SOLVED</text>
+              <text x="16" y="38" font-family="'DM Sans'" font-size="10" fill="#999">CodeChef · HackerRank · Problem Solving</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="hero__hello-bubble">Hello.</div>
+
+        <!-- Decorative squiggle -->
+        <div class="hero__deco-squiggle" aria-hidden="true">
+          <svg width="80" height="40" viewBox="0 0 80 40" fill="none">
+            <path d="M2 20 C12 5, 22 35, 32 20 C42 5, 52 35, 62 20 C72 5, 78 25, 78 20" stroke="#E8E8E8" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <!-- Floating marks -->
+        <span class="hero__deco-cross hero__deco-cross--1" aria-hidden="true">+</span>
+        <span class="hero__deco-cross hero__deco-cross--2" aria-hidden="true">✦</span>
+        <span class="hero__deco-cross hero__deco-cross--3" aria-hidden="true">//</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       3. MARQUEE TICKER
+       ═══════════════════════════════════════ -->
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span class="marquee__item">PYTHON <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">C / C++ <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">MYSQL <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">POWER BI <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">DATA HANDLING <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">AI & ML <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">PROBLEM SOLVING <span class="marquee__diamond">✦</span></span>
+      <!-- Duplicate for infinite loop -->
+      <span class="marquee__item">PYTHON <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">C / C++ <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">MYSQL <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">POWER BI <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">DATA HANDLING <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">AI & ML <span class="marquee__diamond">✦</span></span>
+      <span class="marquee__item">PROBLEM SOLVING <span class="marquee__diamond">✦</span></span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       4. SOCIAL BAR
+       ═══════════════════════════════════════ -->
+  <section class="social-bar">
+    <div class="container social-bar__inner">
+      <div class="social-bar__links">
+        <a href="#" class="social-bar__link">
+          <span class="social-bar__link-icon">in</span>
+          LINKEDIN
+        </a>
+        <span class="social-bar__divider"></span>
+        <a href="#" class="social-bar__link">
+          <span class="social-bar__link-icon">☎</span>
+          +91 6281169400
+        </a>
+        <span class="social-bar__divider"></span>
+        <a href="#" class="social-bar__link">
+          <span class="social-bar__link-icon">📍</span>
+          KAKINADA, AP, INDIA
+        </a>
+      </div>
+      <a href="mailto:bavanig486@gmail.com" class="social-bar__email">
+        ✉&nbsp; BAVANIG486@GMAIL.COM
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       5. TECHNICAL SKILLS
+       ═══════════════════════════════════════ -->
+  <section class="services fade-up" id="services">
+    <div class="container">
+      <div class="services__top">
+        <div class="services__top-left">
+          <p class="label-tag services__label">— MY SKILLS ↑</p>
+          <h2 class="section-heading">WHAT I<br>KNOW</h2>
+        </div>
+        <div class="services__top-right">
+          <p class="services__desc">
+            Proficient in multiple programming languages, databases, and data visualization
+            tools. Passionate about solving complex problems with efficient code.
+          </p>
+          <a href="#projects" class="pill-btn pill-btn--black">SEE PROJECTS →</a>
+        </div>
+      </div>
+
+      <div class="services__grid">
+        <!-- Card 1 — BLACK (featured) — Programming -->
+        <div class="service-card service-card--featured fade-up">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="10" width="52" height="36" rx="3"/>
+              <polyline points="20,24 14,30 20,36"/>
+              <polyline points="44,24 50,30 44,36"/>
+              <line x1="28" y1="38" x2="36" y2="22"/>
+              <line x1="22" y1="52" x2="42" y2="52"/>
+              <line x1="32" y1="46" x2="32" y2="52"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">PROGRAMMING<br>LANGUAGES<br>C · C++ · PYTHON</h3>
+          <a href="#" class="service-card__link">EXPLORE →</a>
+        </div>
+
+        <!-- Card 2 — WHITE — Database -->
+        <div class="service-card fade-up">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="32" cy="16" rx="22" ry="8"/>
+              <path d="M10 16 L10 48 C10 52.4 19.8 56 32 56 C44.2 56 54 52.4 54 48 L54 16"/>
+              <ellipse cx="32" cy="30" rx="22" ry="7" fill="none" opacity="0.4"/>
+              <ellipse cx="32" cy="42" rx="22" ry="7" fill="none" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">DATABASE<br>MANAGEMENT<br>MYSQL</h3>
+          <a href="#" class="service-card__link">EXPLORE →</a>
+        </div>
+
+        <!-- Card 3 — WHITE — Tools -->
+        <div class="service-card fade-up">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="8" y="8" width="48" height="40" rx="3"/>
+              <line x1="8" y1="18" x2="56" y2="18"/>
+              <rect x="14" y="24" width="16" height="18" rx="2"/>
+              <line x1="36" y1="24" x2="50" y2="24"/>
+              <line x1="36" y1="30" x2="48" y2="30"/>
+              <line x1="36" y1="36" x2="46" y2="36"/>
+              <circle cx="12" cy="13" r="2"/>
+              <circle cx="18" cy="13" r="2"/>
+              <circle cx="24" cy="13" r="2"/>
+              <line x1="20" y1="54" x2="44" y2="54"/>
+              <line x1="32" y1="48" x2="32" y2="54"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">TOOLS &<br>PLATFORMS<br>VS CODE · POWER BI</h3>
+          <a href="#" class="service-card__link">EXPLORE →</a>
+        </div>
+      </div>
+
+      <!-- Decorative circle -->
+      <div class="services__deco-circle" aria-hidden="true">
+        <svg viewBox="0 0 20 20" fill="none">
+          <line x1="4" y1="10" x2="16" y2="10" stroke="white" stroke-width="2"/>
+          <line x1="10" y1="4" x2="10" y2="16" stroke="white" stroke-width="2"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       6. EDUCATION
+       ═══════════════════════════════════════ -->
+  <section class="experience fade-up" id="experience">
+    <div class="container experience__inner">
+
+      <!-- LEFT -->
+      <div class="experience__left">
+        <div class="experience__deco">✦</div>
+        <h2 class="section-heading">EDUCATION</h2>
+        <p class="experience__subtext">
+          A strong academic foundation with consistently excellent grades
+          across all levels of education.
+        </p>
+
+        <!-- Decorative diagonal -->
+        <svg width="100" height="100" viewBox="0 0 100 100" fill="none" style="position:absolute;top:10px;right:-20px;opacity:0.3" aria-hidden="true">
+          <line x1="0" y1="100" x2="100" y2="0" stroke="#ccc" stroke-width="1" stroke-dasharray="4 3"/>
+        </svg>
+      </div>
+
+      <!-- RIGHT — Education Timeline -->
+      <div class="experience__list">
+        <!-- Row 1: FEATURED -->
+        <div class="experience__row experience__row--featured fade-up">
+          <div class="experience__job-info">
+            <div class="experience__job-title">B.Tech in AI & Machine Learning</div>
+            <div class="experience__company">Aditya University, Surampalem</div>
+          </div>
+          <div class="experience__duration">2024 – 2028 · 93%</div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="experience__row fade-up">
+          <div class="experience__job-info">
+            <div class="experience__job-title">Intermediate (MPC)</div>
+            <div class="experience__company">Pragati Junior College, Samalkot</div>
+          </div>
+          <div class="experience__duration">2022 – 2024 · 97%</div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="experience__row fade-up">
+          <div class="experience__job-info">
+            <div class="experience__job-title">SSC Board</div>
+            <div class="experience__company">Sri Vidyanidhi School, Peddapuram</div>
+          </div>
+          <div class="experience__duration">2022 · 89%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       7. PROJECTS & CERTIFICATIONS
+       ═══════════════════════════════════════ -->
+  <section class="case-study fade-up" id="projects">
+    <div class="container">
+      <div class="case-study__header">
+        <div class="case-study__deco">✦</div>
+        <h2 class="section-heading">PROJECTS &<br>CERTIFICATIONS</h2>
+        <p class="case-study__subtext">
+          Real-world projects and industry-recognized certifications that
+          showcase my technical capabilities.
+        </p>
+      </div>
+
+      <div class="case-study__grid">
+        <!-- Card 1 — LARGE — Main Project -->
+        <div class="case-card case-card--large case-card--1 fade-up">
+          <div class="case-card__bg">
+            <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+              <defs>
+                <linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#1a1a2e"/>
+                  <stop offset="50%" style="stop-color:#16213e"/>
+                  <stop offset="100%" style="stop-color:#0f3460"/>
+                </linearGradient>
+              </defs>
+              <rect width="600" height="600" fill="url(#cg1)"/>
+              <!-- Database visual -->
+              <ellipse cx="300" cy="150" rx="120" ry="40" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+              <path d="M180 150 L180 350 C180 372 234 390 300 390 C366 390 420 372 420 350 L420 150" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+              <ellipse cx="300" cy="220" rx="120" ry="35" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+              <ellipse cx="300" cy="290" rx="120" ry="35" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+              <!-- Table rows -->
+              <rect x="220" y="420" width="160" height="20" rx="4" fill="rgba(67,233,123,0.1)"/>
+              <rect x="220" y="450" width="160" height="20" rx="4" fill="rgba(107,207,255,0.08)"/>
+              <rect x="220" y="480" width="160" height="20" rx="4" fill="rgba(167,139,250,0.08)"/>
+              <text x="60" y="540" font-family="Syne" font-size="60" font-weight="800" fill="rgba(255,255,255,0.04)">MYSQL</text>
+            </svg>
+          </div>
+          <div class="case-card__overlay"></div>
+          <div class="case-card__content">
+            <span class="case-card__tag">MYSQL · MS EXCEL</span>
+            <h3 class="case-card__title">Student Result Management System — Designed and implemented a MySQL database to efficiently store and retrieve academic records.</h3>
+            <a href="#" class="case-card__link">See Details <span>↗</span></a>
+          </div>
+        </div>
+
+        <!-- Card 2 — Certifications -->
+        <div class="case-card case-card--2 fade-up">
+          <div class="case-card__bg">
+            <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+              <defs>
+                <linearGradient id="cg2" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#2a2a2a"/>
+                  <stop offset="100%" style="stop-color:#1a1a1a"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="320" fill="url(#cg2)"/>
+              <text x="30" y="80" font-family="Syne" font-size="40" font-weight="800" fill="rgba(255,255,255,0.05)">CERTS</text>
+              <!-- Certificate icons -->
+              <rect x="30" y="110" width="80" height="55" rx="6" fill="rgba(255,211,61,0.1)" stroke="rgba(255,211,61,0.15)" stroke-width="1"/>
+              <rect x="130" y="110" width="80" height="55" rx="6" fill="rgba(107,207,255,0.1)" stroke="rgba(107,207,255,0.15)" stroke-width="1"/>
+              <rect x="230" y="110" width="80" height="55" rx="6" fill="rgba(67,233,123,0.1)" stroke="rgba(67,233,123,0.15)" stroke-width="1"/>
+              <text x="48" y="142" font-family="'DM Sans'" font-size="9" fill="rgba(255,255,255,0.3)">EXCEL</text>
+              <text x="138" y="142" font-family="'DM Sans'" font-size="9" fill="rgba(255,255,255,0.3)">POWER BI</text>
+              <text x="242" y="142" font-family="'DM Sans'" font-size="9" fill="rgba(255,255,255,0.3)">CISCO C</text>
+            </svg>
+          </div>
+          <div class="case-card__overlay"></div>
+          <div class="case-card__content">
+            <span class="case-card__tag">CERTIFICATIONS</span>
+            <h3 class="case-card__title">MS Excel · Power BI · Cisco C Essentials 1</h3>
+            <a href="#" class="case-card__link">View All <span>↗</span></a>
+          </div>
+        </div>
+
+        <!-- Card 3 — Achievements -->
+        <div class="case-card case-card--3 fade-up">
+          <div class="case-card__bg">
+            <svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+              <defs>
+                <linearGradient id="cg3" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#1f1f1f"/>
+                  <stop offset="100%" style="stop-color:#2d2d2d"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="320" fill="url(#cg3)"/>
+              <text x="30" y="80" font-family="Syne" font-size="36" font-weight="800" fill="rgba(255,255,255,0.05)">500+</text>
+              <!-- Trophy / star -->
+              <circle cx="200" cy="160" r="50" fill="rgba(255,107,107,0.08)"/>
+              <text x="182" y="168" font-size="36" fill="rgba(255,255,255,0.15)">🏆</text>
+              <circle cx="310" cy="100" r="30" fill="rgba(167,139,250,0.1)"/>
+              <circle cx="90" cy="220" r="25" fill="rgba(67,233,123,0.08)"/>
+            </svg>
+          </div>
+          <div class="case-card__overlay"></div>
+          <div class="case-card__content">
+            <span class="case-card__tag">ACHIEVEMENTS</span>
+            <h3 class="case-card__title">CodeChef 500+ problems · HackerRank · Tech Fest Runner-up</h3>
+            <a href="#" class="case-card__link">See Details <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       8. CONTACT SECTION
+       ═══════════════════════════════════════ -->
+  <section class="contact fade-up" id="contact">
+    <div class="container">
+      <div class="contact__header">
+        <div class="contact__deco">✦</div>
+        <h2 class="section-heading">GET IN<br>TOUCH</h2>
+        <p class="contact__subtext">
+          Have a project in mind or want to collaborate? Drop me a message
+          and I'll get back to you as soon as possible.
+        </p>
+      </div>
+
+      <div class="contact__grid">
+        <!-- LEFT — Info Cards -->
+        <div class="contact__info">
+          <div class="contact__info-card fade-up">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <span class="label-tag">EMAIL</span>
+              <p class="contact__info-value">bavanig486@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact__info-card fade-up">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <span class="label-tag">PHONE</span>
+              <p class="contact__info-value">+91 6281169400</p>
+            </div>
+          </div>
+
+          <div class="contact__info-card fade-up">
+            <div class="contact__info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <span class="label-tag">LOCATION</span>
+              <p class="contact__info-value">Kakinada, Andhra Pradesh, India</p>
+            </div>
+          </div>
+
+          <!-- Decorative blob -->
+          <div class="contact__info-blob" aria-hidden="true"></div>
+        </div>
+
+        <!-- RIGHT — Contact Form -->
+        <form class="contact__form fade-up" id="contact-form">
+          <div class="contact__form-row">
+            <div class="contact__form-group">
+              <label for="name" class="label-tag">YOUR NAME</label>
+              <input type="text" id="name" name="name" placeholder="Jasthi Ganga Bhavani" required>
+            </div>
+            <div class="contact__form-group">
+              <label for="email" class="label-tag">YOUR EMAIL</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+
+          <div class="contact__form-group">
+            <label for="subject" class="label-tag">SUBJECT</label>
+            <input type="text" id="subject" name="subject" placeholder="Project collaboration, internship, etc.">
+          </div>
+
+          <div class="contact__form-group">
+            <label for="message" class="label-tag">MESSAGE</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+          </div>
+
+          <button type="submit" class="pill-btn pill-btn--black contact__form-btn">
+            SEND MESSAGE
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CONTACT CTA STRIP
+       ═══════════════════════════════════════ -->
+  <section class="contact-cta fade-up">
+    <div class="container">
+      <h2 class="contact-cta__heading">Let's Work Together ↗</h2>
+      <p class="contact-cta__sub">Looking for an internship or collaboration? Let's connect and build something great.</p>
+      <a href="mailto:bavanig486@gmail.com" class="pill-btn pill-btn--outline contact-cta__btn">GET IN TOUCH</a>
+    </div>
+
+    <!-- Decorative marks -->
+    <span class="contact-cta__deco contact-cta__deco--1" aria-hidden="true">✦</span>
+    <span class="contact-cta__deco contact-cta__deco--2" aria-hidden="true">+</span>
+    <span class="contact-cta__deco contact-cta__deco--3" aria-hidden="true">//</span>
+    <span class="contact-cta__deco contact-cta__deco--4" aria-hidden="true">*</span>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       9. FOOTER
+       ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <div class="footer__logo">
+            it's me / Bhavani <span>— B.Tech AIML Student</span>
+          </div>
+          <p class="footer__tagline">
+            Developer · Problem Solver · Data Enthusiast. Building solutions that make a difference.
+          </p>
+        </div>
+        <div class="footer__social">
+          <!-- LinkedIn -->
+          <a href="#" class="footer__social-icon" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <!-- GitHub -->
+          <a href="#" class="footer__social-icon" aria-label="GitHub">
+            <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <!-- Phone -->
+          <a href="tel:+916281169400" class="footer__social-icon" aria-label="Phone">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+          <!-- Email -->
+          <a href="mailto:bavanig486@gmail.com" class="footer__social-icon" aria-label="Email">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__nav">
+        <a href="#about">Home</a>
+        <a href="#services">Skills</a>
+        <a href="#experience">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer__bottom">
+        <span>© 2025 Jasthi Ganga Bhavani. All Rights Reserved.</span>
+        <span>Designed with <span class="footer__bottom-heart">♥</span> by Bhavani</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
