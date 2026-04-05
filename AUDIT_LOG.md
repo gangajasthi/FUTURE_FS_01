@@ -16,3 +16,7 @@ This file records actions and changes performed in this workspace (commands run,
 - Resolved README conflict and continued: `git add README.md` + `git rebase --continue`.
 - Successfully pushed to GitHub: `git push -u origin main`.
 - Updated `README.md` to include the live demo link: https://gangastack.netlify.app/
+- Ran `git status` to confirm pending changes (modified: `README.md`, `AUDIT_LOG.md`).
+- Staged changes: `git add README.md AUDIT_LOG.md`.
+- Committed: `git commit -m "Add live demo link"`.
+- Pushed: `git push`.
