@@ -5,3 +5,6 @@ This file records actions and changes performed in this workspace (commands run,
 ## 2026-04-05
 
 - Created `README.md` with project description and run instructions.
+- Initialized git repository: `git init`.
+- Staged all files: `git add -A`.
+- Created initial commit: `git commit -m "Initial commit: portfolio site"`.
